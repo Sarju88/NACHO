@@ -30,14 +30,9 @@
   color: var(--paper);
 }
 
-.godot-credit svg {
+.godot-credit img {
   width: 43px;
   height: 43px;
-  fill: #478cbf;
-}
-
-.godot-credit .godot-face {
-  fill: var(--paper);
 }
 
 .godot-credit span,

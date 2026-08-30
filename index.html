@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08131c">
+  <meta name="description" content="N.A.C.H.O. is an asymmetric real-time shore-defense strategy game set around the Strait of Hormuz.">
+  <meta property="og:title" content="N.A.C.H.O. — Hold the Strait">
+  <meta property="og:description" content="Build the shore. Control the air. Decide whether the convoy gets through.">
+  <meta property="og:image" content="assets/social-card.svg">
+  <title>N.A.C.H.O. — Not A Chance Hormuz Opens</title>
+  <link rel="icon" href="assets/nacho-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="N.A.C.H.O. home">
+      <img src="assets/nacho-mark.svg" alt="">
+      <span>N.A.C.H.O.</span>
+    </a>
+    <button class="menu-button" aria-expanded="false" aria-controls="site-nav">MENU</button>
+    <nav id="site-nav" aria-label="Main navigation">
+      <a href="#mission">Mission</a><a href="#systems">Systems</a><a href="#factions">Factions</a><a href="#updates">Intel</a>
+      <a class="nav-cta" href="#download">Download</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> INITIAL PLAYABLE BUILD // v0.1.0</p>
+        <h1>THE STRAIT<br><em>DECIDES.</em></h1>
+        <p class="hero-lede">An asymmetric real-time strategy game where every convoy is a moving objective—and every square of coastline can change its fate.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#download">Download the game</a>
+          <a class="button ghost" href="#mission">View mission brief</a>
+        </div>
+        <dl class="match-specs">
+          <div><dt>20:00</dt><dd>Match clock</dd></div>
+          <div><dt>8×5</dt><dd>Shore grids</dd></div>
+          <div><dt>2</dt><dd>Asymmetric sides</dd></div>
+        </dl>
+      </div>
+
+      <div class="tactical-display" aria-label="Stylized tactical overview of the Strait">
+        <div class="display-top"><span>STRAIT COMMAND / LIVE</span><span class="signal">● LINK 04</span></div>
+        <div class="map">
+          <div class="shore iran"><span>IRANIAN GRID</span><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="water">
+            <span class="lane lane-a"></span><span class="lane lane-b"></span>
+            <span class="ship ship-a">▶</span><span class="ship ship-b">▶</span><span class="ship ship-c">▶</span>
+            <span class="radar-ring"></span><span class="route"></span><span class="aircraft">✦</span>
+          </div>
+          <div class="shore usa"><span>U.S. GRID</span><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="display-bottom"><span>CONVOY ETA 01:14</span><span>US 040 — 030 IRAN</span></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Game highlights"><span>AUTOMATIC CONVOYS</span><span>GRID DEFENSE</span><span>ROUTE-DRAWN AIRSTRIKES</span><span>OIL-DRIVEN ECONOMY</span><span>SUDDEN DEATH</span></section>
+
+    <section id="mission" class="section mission">
+      <div class="section-heading"><p class="eyebrow">01 // MISSION BRIEF</p><h2>ONE WATERWAY.<br>TWO WAYS TO WIN.</h2></div>
+      <div class="mission-copy">
+        <p class="large-copy">The United States must escort scheduled cargo convoys through the Strait. Iran must detect, disrupt, and destroy them before they reach open water.</p>
+        <p>The boats never wait for you. They arrive in waves while both commanders build fixed shore defenses, expand their oil economy, establish radar coverage, and time temporary air operations.</p>
+      </div>
+      <div class="objective-cards">
+        <article class="objective us"><span>U.S. COMMAND</span><h3>Get them through.</h3><p>Build layered defense, improve future convoy hulls and engines, then bomb openings into hostile coverage.</p></article>
+        <div class="versus">VS</div>
+        <article class="objective ir"><span>IRANIAN COMMAND</span><h3>Close the Strait.</h3><p>Build firing lanes, scout with radar, strike the convoy with missiles, and raid shore infrastructure with drones.</p></article>
+      </div>
+    </section>
+
+    <section id="systems" class="section systems">
+      <div class="section-heading"><p class="eyebrow">02 // WHAT MAKES IT DIFFERENT</p><h2>STRATEGY ON<br>THREE FRONTS.</h2></div>
+      <div class="feature-grid">
+        <article><b>01</b><div class="feature-icon grid-icon"></div><h3>Battleship-style placement</h3><p>Every defense occupies one readable grid cell. Commit your currency, find a firing lane, and live with the position.</p></article>
+        <article><b>02</b><div class="feature-icon convoy-icon">▶ ▶ ▶</div><h3>The objective keeps moving</h3><p>Free three-ship convoy waves create pressure automatically. You build around a battle that refuses to pause.</p></article>
+        <article><b>03</b><div class="feature-icon route-icon">⌁</div><h3>Draw the strike route</h3><p>Warplanes and drone swarms follow the path you draw across enemy cells, attack once, then leave the battlefield.</p></article>
+        <article><b>04</b><div class="feature-icon oil-icon">◉</div><h3>Economy is a target</h3><p>Oil rigs compound income but can be destroyed from the air. Greed creates power—and a tempting target.</p></article>
+        <article><b>05</b><div class="feature-icon radar-icon">◌</div><h3>Information is firepower</h3><p>Radar reveals contacts and extends acquisition. A launcher without intelligence is just expensive scenery.</p></article>
+        <article><b>06</b><div class="feature-icon domain-icon">▲ ≋ ✦</div><h3>Land, sea, and air rules</h3><p>Ground weapons stay ashore, ships own the water, and temporary sorties cross above them. Each counter has a job.</p></article>
+      </div>
+    </section>
+
+    <section id="factions" class="section factions">
+      <div class="section-heading"><p class="eyebrow">03 // CHOOSE A COMMAND</p><h2>SAME STRAIT.<br>DIFFERENT WAR.</h2></div>
+      <div class="faction-panels">
+        <article class="faction-card us-card">
+          <p class="faction-code">FACTION // US</p><h3>ESCORT & ENDURE</h3><p>Protect an objective you do not directly control. Tanks punish boats, AA guards the shore, and unlimited hull and engine research strengthens future waves.</p>
+          <ul><li>Tank</li><li>AA cannon</li><li>Radar</li><li>Oil rig</li><li>Airfield</li><li>Warplane sortie</li></ul>
+        </article>
+        <article class="faction-card iran-card">
+          <p class="faction-code">FACTION // IRAN</p><h3>DETECT & DENY</h3><p>Turn the northern shore into an interdiction network. Missile launchers threaten the sea while route-based drone swarms raid vital infrastructure.</p>
+          <ul><li>Missile launcher</li><li>AA cannon</li><li>Radar</li><li>Oil rig</li><li>Drone control</li><li>Drone swarm</li></ul>
+        </article>
+      </div>
+      <div class="rules-strip"><div><strong>400</strong><span>Starting currency</span></div><div><strong>+2/s</strong><span>Base income</span></div><div><strong>+1.5/s</strong><span>Per oil rig</span></div><div><strong>100</strong><span>Victory score</span></div></div>
+    </section>
+
+    <section id="updates" class="section updates">
+      <div class="section-heading"><p class="eyebrow">04 // FIELD INTELLIGENCE</p><h2>LATEST<br>TRANSMISSIONS.</h2></div>
+      <div id="updates-list" class="updates-list" aria-live="polite"><p>Decrypting updates…</p></div>
+      <a class="text-link" href="https://github.com/Sarju88/NACHO/releases">View all releases ↗</a>
+    </section>
+
+    <section id="download" class="section download">
+      <div class="download-copy"><p class="eyebrow">05 // DEPLOY</p><h2>TAKE COMMAND.</h2><p>The initial playable build is available now for macOS and Windows. Keyboard and mouse required.</p></div>
+      <div class="download-actions">
+        <a class="download-card" href="https://github.com/Sarju88/NACHO/releases/latest/download/NACHO-macOS.zip"><span>DOWNLOAD FOR</span><strong>macOS</strong><small>ZIP · Apple & Intel Mac</small></a>
+        <a class="download-card" href="https://github.com/Sarju88/NACHO/releases/latest/download/NACHO-Windows.exe"><span>DOWNLOAD FOR</span><strong>Windows</strong><small>EXE · Windows 10/11</small></a>
+      </div>
+      <p class="build-note">Early development build. Your OS may ask you to confirm software downloaded from the internet.</p>
+    </section>
+  </main>
+
+  <footer><div class="brand footer-brand"><img src="assets/nacho-mark.svg" alt=""><span>N.A.C.H.O.</span></div><p>NOT A CHANCE HORMUZ OPENS</p><p class="disclaimer">A fictional strategy game. Unit behavior and geography are gameplay abstractions.</p><a href="https://github.com/Sarju88/NACHO">GitHub ↗</a></footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2026-08-30",
+    "version": "v0.1.0",
+    "title": "Shore Defense Redesign",
+    "summary": "Two 8×5 deployment grids, fixed shore defenses, oil-rig income, automatic convoy waves, cargo upgrades, and route-drawn warplane and drone sorties are now playable. New Simple Port ships and harbor props bring the Strait to life."
+  },
+  {
+    "date": "2026-08-29",
+    "version": "Prototype",
+    "title": "First Contact",
+    "summary": "The initial solo-versus-AI battle established convoy scoring, command economies, asymmetric faction rosters, fog of war, and a compressed Strait of Hormuz battlefield."
+  }
+]

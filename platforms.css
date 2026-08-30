@@ -1,0 +1,66 @@
+.download-card {
+  min-height: 108px;
+  padding-left: 94px;
+  position: relative;
+}
+
+.platform-logo {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  width: 39px;
+  height: 44px;
+  fill: var(--paper);
+  transform: translateY(-50%);
+}
+
+.godot-credit {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: max-content;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: .13em;
+  transition: color .2s;
+}
+
+.godot-credit:hover {
+  color: var(--paper);
+}
+
+.godot-credit svg {
+  width: 43px;
+  height: 43px;
+  fill: #478cbf;
+}
+
+.godot-credit .godot-face {
+  fill: var(--paper);
+}
+
+.godot-credit span,
+.godot-credit small {
+  display: block;
+}
+
+.godot-credit strong {
+  color: var(--paper);
+}
+
+.godot-credit small {
+  margin-top: 5px;
+  color: var(--amber);
+  font-size: 9px;
+}
+
+@media (max-width: 580px) {
+  .download-card {
+    padding-left: 82px;
+  }
+
+  .platform-logo {
+    left: 24px;
+  }
+}

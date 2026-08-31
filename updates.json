@@ -1,6 +1,12 @@
 [
   {
     "date": "2026-08-30",
+    "version": "v0.4.0",
+    "title": "The Real Strait, Reimagined",
+    "summary": "The rectangular prototype terrain has been replaced by smooth low-poly geography inspired by the real Strait of Hormuz: sculpted Iranian and Musandam coastlines, Qeshm, Hormuz, Larak and Hengam islands, turquoise shallows, and restrained faceted mountain chains."
+  },
+  {
+    "date": "2026-08-30",
     "version": "v0.3.0",
     "title": "Reinforcements Ashore",
     "summary": "A new Simple Military asset library upgrades U.S. tanks, Iranian SCUD launchers, radar vehicles, and drones. U.S. commanders gain a paid attack-helicopter sortie, while sandbags, damaged buildings, palms, walls, guard positions, and rubble make both shores feel battle-worn."

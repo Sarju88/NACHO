@@ -1,6 +1,12 @@
 [
   {
     "date": "2026-08-30",
+    "version": "v0.3.0",
+    "title": "Reinforcements Ashore",
+    "summary": "A new Simple Military asset library upgrades U.S. tanks, Iranian SCUD launchers, radar vehicles, and drones. U.S. commanders gain a paid attack-helicopter sortie, while sandbags, damaged buildings, palms, walls, guard positions, and rubble make both shores feel battle-worn."
+  },
+  {
+    "date": "2026-08-30",
     "version": "v0.2.0",
     "title": "Autonomous Command",
     "summary": "AI vs AI observation mode lets both factions build, upgrade, launch sorties, and fight while you control the spectator camera. AI-involved matches now produce structured local training records, and fixed grid defenses are protected from physics displacement."

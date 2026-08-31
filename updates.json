@@ -1,6 +1,12 @@
 [
   {
     "date": "2026-08-30",
+    "version": "v0.6.0",
+    "title": "The Living Coast",
+    "summary": "The foreground now features military coastal towns, winding roads, rocky beaches, seawalls, jetties, larger Farmer-pack tree groves, and complete island shorelines. Tall ranges sit behind the settlements, and a tactical nacho chip replaces the old letter emblem."
+  },
+  {
+    "date": "2026-08-30",
     "version": "v0.5.0",
     "title": "Beyond the Horizon",
     "summary": "The playable Strait now sits inside a dense natural landscape: two overlapping mountain walls line both shores, rocky shelves and tree-and-shrub clusters break up the slopes, Qeshm, Hormuz, Larak, and Hengam carry their own peaks, and clouds fill the sky above the animated blue-to-turquoise water."

@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#071019"/><path d="M0 470L1200 310v320H0z" fill="#123f50"/><path d="M0 520L1200 360" stroke="#55c8e8" stroke-width="3" stroke-dasharray="16 14"/><circle cx="850" cy="230" r="160" fill="none" stroke="#ef6b58" opacity=".5"/><circle cx="850" cy="230" r="90" fill="none" stroke="#ef6b58" opacity=".8"/><g transform="translate(1010 55) scale(.22)"><rect width="512" height="512" rx="92" fill="#0d1c27"/><path d="M256 58 452 420c12 22-5 45-30 40L84 391c-24-5-32-32-15-49L226 52c9-17 21-12 30 6Z" fill="#f0bc58" stroke="#ffe09a" stroke-width="16"/><circle cx="242" cy="171" r="13" fill="#9f5d2b"/><circle cx="205" cy="306" r="15" fill="#9f5d2b"/><path d="M190 211a96 96 0 0 1 136 0M217 240a58 58 0 0 1 82 0M258 245v80" fill="none" stroke="#071019" stroke-width="13" stroke-linecap="round"/></g><text x="80" y="170" fill="#f0bc58" font-family="Arial" font-size="28" font-weight="bold" letter-spacing="7">NOT A CHANCE HORMUZ OPENS</text><text x="72" y="310" fill="#d8e4e4" font-family="Arial" font-size="132" font-weight="900">N.A.C.H.O.</text><text x="80" y="380" fill="#8da3a7" font-family="Arial" font-size="30">BUILD THE SHORE. CONTROL THE AIR. HOLD THE STRAIT.</text><path d="M790 460h130l-35 22H755zM960 415h90l-22 17h-92z" fill="#d8e4e4"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#071019"/>
+  <path d="M0 470L1200 310v320H0z" fill="#123f50"/>
+  <path d="M0 520L1200 360" stroke="#55c8e8" stroke-width="3" stroke-dasharray="16 14"/>
+  <circle cx="850" cy="230" r="160" fill="none" stroke="#ef6b58" opacity=".5"/>
+  <circle cx="850" cy="230" r="90" fill="none" stroke="#ef6b58" opacity=".8"/>
+  <g transform="translate(1010 55) scale(.22)">
+    <rect width="512" height="512" rx="92" fill="#0d1c27"/>
+    <path d="M256 55 451 416c13 24-6 49-33 43L87 391c-27-6-34-37-14-56L226 50c9-17 21-12 30 5Z" fill="#f2bd54" stroke="#ffdc83" stroke-width="17" stroke-linejoin="round"/>
+    <path d="M254 102 395 395 119 338Z" fill="#dc9633" opacity=".34"/>
+    <g fill="#a86127"><circle cx="241" cy="165" r="12"/><circle cx="304" cy="253" r="8"/><circle cx="198" cy="295" r="14"/><circle cx="337" cy="356" r="9"/><circle cx="151" cy="344" r="7"/></g>
+  </g>
+  <text x="80" y="170" fill="#f0bc58" font-family="Arial" font-size="28" font-weight="bold" letter-spacing="7">NOT A CHANCE HORMUZ OPENS</text>
+  <text x="72" y="310" fill="#d8e4e4" font-family="Arial" font-size="132" font-weight="900">N.A.C.H.O.</text>
+  <text x="80" y="380" fill="#8da3a7" font-family="Arial" font-size="30">BUILD THE SHORE. CONTROL THE AIR. HOLD THE STRAIT.</text>
+  <path d="M790 460h130l-35 22H755zM960 415h90l-22 17h-92z" fill="#d8e4e4"/>
+</svg>
+

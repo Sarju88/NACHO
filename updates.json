@@ -1,6 +1,12 @@
 [
   {
     "date": "2026-08-31",
+    "version": "v0.6.2",
+    "title": "Just a Nacho",
+    "summary": "The game emblem is now a regular toasted nacho chip. The radar cuts and tactical markings have been removed from the app icon, boot splash, favicon, website, and social artwork."
+  },
+  {
+    "date": "2026-08-31",
     "version": "v0.6.1",
     "title": "Roadside Relief",
     "summary": "Coastal roads now run as continuous straight alignments with proper corner turns. Greenery has been moved off roads and deployment cells, oversized grass pads are gone, and Kenney Nature Kit rock slopes rise naturally behind both roads."

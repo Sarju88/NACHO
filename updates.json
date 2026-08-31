@@ -1,6 +1,12 @@
 [
   {
     "date": "2026-08-30",
+    "version": "v0.5.0",
+    "title": "Beyond the Horizon",
+    "summary": "The playable Strait now sits inside a much larger natural landscape: continuous Zagros and Musandam mountain ranges surround the camera, coastlines follow the real shipping corridor more closely, sparse irrigated greenery breaks up the desert, and convoys travel through long visible approaches instead of disappearing at the battlefield edge."
+  },
+  {
+    "date": "2026-08-30",
     "version": "v0.4.0",
     "title": "The Real Strait, Reimagined",
     "summary": "The rectangular prototype terrain has been replaced by smooth low-poly geography inspired by the real Strait of Hormuz: sculpted Iranian and Musandam coastlines, Qeshm, Hormuz, Larak and Hengam islands, turquoise shallows, and restrained faceted mountain chains."

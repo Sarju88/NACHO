@@ -1,6 +1,12 @@
 [
   {
     "date": "2026-08-31",
+    "version": "v0.7.0",
+    "title": "The Aquatic Update",
+    "summary": "The strait is deeper than you think, how can it be used to your advantage?"
+  },
+  {
+    "date": "2026-08-31",
     "version": "v0.6.2",
     "title": "Just a Nacho",
     "summary": "The game emblem is now a regular toasted nacho chip. The radar cuts and tactical markings have been removed from the app icon, boot splash, favicon, website, and social artwork."

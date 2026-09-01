@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-01",
+    "version": "v0.8.0",
+    "title": "The Web Command Update",
+    "summary": "N.A.C.H.O. is now instantly playable in the browser, with a cinematic new command menu and no public desktop downloads."
+  },
+  {
     "date": "2026-08-31",
     "version": "v0.7.0",
     "title": "The Aquatic Update",
